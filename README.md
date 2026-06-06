@@ -2,8 +2,9 @@
 
 A dark, editorial single-page portfolio built with **Next.js (App Router)**,
 **React**, and **GSAP** (ScrollTrigger). Preloader, scroll progress, hero aurora
-+ mouse parallax, magnetic buttons, clip-path image reveals, skew-on-scroll,
-count-up stats, scroll-reactive marquee, custom cursor with a "View" label.
+
+- mouse parallax, magnetic buttons, clip-path image reveals, skew-on-scroll,
+  count-up stats, scroll-reactive marquee, custom cursor with a "View" label.
 
 Uses **`next/image`** for thumbnails and **`next/link`** for navigation.
 
@@ -74,12 +75,12 @@ This project uses **Tailwind CSS v4.1** (CSS-first config — no `tailwind.confi
 
 Brand tokens are wired into Tailwind, so these utilities work out of the box:
 
-| Utility examples | Token |
-| --- | --- |
-| `bg-ink` `bg-ink-2` | background colors |
-| `text-cream` `text-accent` `text-muted` | text colors |
-| `border-accent` | borders |
-| `font-display` `font-body` `font-mono` | font families |
+| Utility examples                        | Token             |
+| --------------------------------------- | ----------------- |
+| `bg-ink` `bg-ink-2`                     | background colors |
+| `text-cream` `text-accent` `text-muted` | text colors       |
+| `border-accent`                         | borders           |
+| `font-display` `font-body` `font-mono`  | font families     |
 
 **Pattern used in this project:**
 
@@ -135,4 +136,5 @@ Tune the feel with the `duration` / `easing` options in `app/page.js`.
 ## Deploy
 
 Push to GitHub → import into [Vercel](https://vercel.com). Zero config.
+
 # Sunil
